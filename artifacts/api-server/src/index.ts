@@ -1,25 +1,10 @@
-import app from "./app";
-import { logger } from "./lib/logger";
+import app from './app';
 
-const rawPort = process.env["PORT"];
-
-if (!rawPort) {
-  throw new Error(
-    "PORT environment variable is required but was not provided.",
-  );
+const port = Number(process.env.PORT || 3000);
+if (!Number.isInteger(port) || port < 1 || port > 65535) {
+  throw new Error(`Invalid PORT value: "${process.env.PORT}"`);
 }
 
-const port = Number(rawPort);
-
-if (Number.isNaN(port) || port <= 0) {
-  throw new Error(`Invalid PORT value: "${rawPort}"`);
-}
-
-app.listen(port, (err) => {
-  if (err) {
-    logger.error({ err }, "Error listening on port");
-    process.exit(1);
-  }
-
-  logger.info({ port }, "Server listening");
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Smart Kisan Bharat API listening on 0.0.0.0:${port}`);
 });

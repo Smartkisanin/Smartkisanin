@@ -1,0 +1,14 @@
+{
+  "name": "Smart Kisan Bharat",
+  "short_name": "SKB",
+  "description": "A farmer and buyer marketplace with saved offline drafts.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f8f4",
+  "theme_color": "#065f46",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

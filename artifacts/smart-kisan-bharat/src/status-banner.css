@@ -1,0 +1,100 @@
+.api-status-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px max(4vw, calc((100vw - 1180px) / 2));
+  color: #754b00;
+  background: #fff4d7;
+  border-bottom: 1px solid #ead9a8;
+  font-size: 12px;
+}
+
+.api-status-banner button {
+  flex: 0 0 auto;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.empty-state {
+  margin: 0 0 16px;
+  border-color: #ead9a8;
+  background: #fffaf0;
+}
+
+.empty-state h2 {
+  margin: 0 0 7px;
+  color: #614800;
+  font-size: 16px;
+}
+
+.empty-state p {
+  margin: 0;
+  color: #786d52;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.queue-row > .approve-btn,
+.queue-row > .review-btn {
+  white-space: nowrap;
+}
+
+.order-row > button {
+  display: block;
+  clear: both;
+  margin-top: 10px;
+}
+
+.govt-activity-table-wrap {
+  width: 100%;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+.govt-activity-table {
+  width: 100%;
+  min-width: 590px;
+  border-collapse: collapse;
+  color: #40544a;
+  font-size: 10px;
+  text-align: right;
+}
+
+.govt-activity-table th,
+.govt-activity-table td {
+  padding: 11px 9px;
+  border-bottom: 1px solid #edf0ed;
+  white-space: nowrap;
+}
+
+.govt-activity-table thead th {
+  color: #87938c;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.govt-activity-table thead th:first-child,
+.govt-activity-table tbody th {
+  text-align: left;
+}
+
+.govt-activity-table tbody th {
+  color: #18382e;
+  font-weight: 650;
+}
+
+.order-row > button {
+  padding: 6px 9px;
+}
+
+@media (max-width: 760px) {
+  .api-status-banner {
+    padding: 9px 4vw;
+    font-size: 11px;
+  }
+}
