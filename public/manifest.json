@@ -1,6 +1,6 @@
 {
   "short_name": "SmartKisan",
-  "name": "स्मार्ट किसान भारत - Smart Kisan Bharat",
+  "name": "स्मार्ट किसान भारत",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
@@ -19,6 +19,5 @@
   "background_color": "#0B3D2E",
   "theme_color": "#0B3D2E",
   "display": "standalone",
-  "orientation": "portrait",
-  "scope": "/"
+  "orientation": "portrait"
 }
