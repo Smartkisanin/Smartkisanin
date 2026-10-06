@@ -1,18 +1,12 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "artifacts/smart-kisan-bharat/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "artifacts/smart-kisan-bharat/dist"
-      }
-    }
-  ],
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm --filter ./artifacts/smart-kisan-bharat run build",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist",
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/sw.js", "dest": "/sw.js" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
