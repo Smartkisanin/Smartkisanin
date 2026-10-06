@@ -3,19 +3,22 @@
   "name": "स्मार्ट किसान भारत - Smart Kisan Bharat",
   "icons": [
     {
-      "src": "/pwa-192x192.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "/pwa-512x512.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "background_color": "#0B3D2E",
   "theme_color": "#0B3D2E",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "scope": "/"
 }
