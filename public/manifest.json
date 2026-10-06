@@ -1,0 +1,21 @@
+{
+  "short_name": "SmartKisan",
+  "name": "स्मार्ट किसान भारत - Smart Kisan Bharat",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B3D2E",
+  "theme_color": "#0B3D2E",
+  "display": "standalone",
+  "orientation": "portrait"
+}
