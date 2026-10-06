@@ -4,7 +4,7 @@
   "description": "Smart Kisan Bharat Digital Agricultural Marketplace",
   "icons": [
     {
-      "src": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=512&h=512&fit=crop",
+      "src": "https://unsplash.com",
       "type": "image/jpeg",
       "sizes": "192x192 512x512",
       "purpose": "any maskable"

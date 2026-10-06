@@ -2,7 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "buildCommand": "pnpm --filter ./artifacts/smart-kisan-bharat run build",
-  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist",
   "routes": [
     {
       "src": "/sw.js",
