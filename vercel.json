@@ -2,8 +2,8 @@
   "version": 2,
   "framework": "vite",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "dist/public",
+  "buildCommand": "pnpm --filter ./artifacts/smart-kisan-bharat run build",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
   "rewrites": [
     {
       "source": "/assets/(.*)",
