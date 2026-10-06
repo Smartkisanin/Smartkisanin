@@ -3,15 +3,15 @@
   "framework": "vite",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm --filter ./artifacts/smart-kisan-bharat run build",
-  "outputDirectory": "artifacts/smart-kisan-bharat/dist",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
   "routes": [
     {
       "src": "/assets/(.*)",
-      "dest": "/artifacts/smart-kisan-bharat/dist/assets/$1"
+      "dest": "/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/artifacts/smart-kisan-bharat/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }
