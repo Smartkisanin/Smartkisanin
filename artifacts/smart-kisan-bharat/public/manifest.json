@@ -1,0 +1,19 @@
+{
+  "short_name": "स्मार्ट किसान",
+  "name": "स्मार्ट किसान भारत - Smart Kisan Bharat",
+  "description": "Smart Kisan Bharat Digital Agricultural Marketplace",
+  "icons": [
+    {
+      "src": "/assets/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B3D2E",
+  "theme_color": "#0B3D2E",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/"
+}
