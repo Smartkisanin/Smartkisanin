@@ -1,6 +1,7 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
   "routes": [
     { "src": "/sw.js", "dest": "/sw.js" },
     { "src": "/manifest.json", "dest": "/manifest.json" },
