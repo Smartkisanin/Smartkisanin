@@ -1,17 +1,11 @@
 {
-  "short_name": "SmartKisan",
-  "name": "स्मार्ट किसान भारत",
+  "short_name": "Smart Kisan",
+  "name": "स्मार्ट किसान भारत - Smart Kisan Bharat",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "src": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=512&h=512&fit=crop",
+      "type": "image/jpeg",
+      "sizes": "192x192 512x512",
       "purpose": "any maskable"
     }
   ],
@@ -19,5 +13,6 @@
   "background_color": "#0B3D2E",
   "theme_color": "#0B3D2E",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "scope": "/"
 }
